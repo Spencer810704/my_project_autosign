@@ -16,12 +16,12 @@
 ## 使用方法
 ---
 1. 建立目錄
-    mkdir -p /opt/scripts/ios_automatic_sign/ios/{unsign,sign}/{ams,booking,game,ars}
+    `mkdir -p /opt/scripts/ios_automatic_sign/ios/{unsign,sign}/{ams,booking,game,ars}`
 2. 修改配置檔 , 配置ipa的儲存路徑
-    vim ios_automatic_sign/trevi_tools/aliyun_tools/config.ini
+    `vim ios_automatic_sign/trevi_tools/aliyun_tools/config.ini`
 3. 上傳專案到目標機器
 4. pip安裝套件
-    pip3.6 install -r requirements.txt
+    `pip3.6 install -r requirements.txt`
 
 
 ## 版本更新資訊
