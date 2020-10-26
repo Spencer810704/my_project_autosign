@@ -12,6 +12,18 @@
 ![Flowchart](Flowchart.jpg)
 
 
+
+## 使用方法
+---
+1. 建立目錄
+    mkdir -p /opt/scripts/ios_automatic_sign/ios/{unsign,sign}/{ams,booking,game,ars}
+2. 修改配置檔 , 配置ipa的儲存路徑
+    vim ios_automatic_sign/trevi_tools/aliyun_tools/config.ini
+3. 上傳專案到目標機器
+4. pip安裝套件
+    pip3.6 install -r requirements.txt
+
+
 ## 版本更新資訊
 ---
 * 2019/09/20 刪除download.py
@@ -37,16 +49,3 @@
 * 2019/09/21 監控亙古重簽API , 自動觸發重簽
 * 2019/10/22 檢查簽名狀態超過10分鐘後自動取消功能。
 * 2019/10/22 下載無動作時自動取消功能
-
-## 使用方法
----
-1. 建立目錄
-    mkdir -p /opt/scripts/ios_automatic_sign/ios/{unsign,sign}/{ams,booking,game,ars}
-
-2. 修改配置檔 , 配置ipa的儲存路徑
-    vim ios_automatic_sign/trevi_tools/aliyun_tools/config.ini
-
-3. 上傳專案到目標機器
-
-4. pip安裝套件
-    pip3.6 install -r requirements.txt
