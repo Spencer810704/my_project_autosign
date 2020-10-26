@@ -4,6 +4,10 @@
 自動化簽名腳本
 
 
+## Flowchart
+![Flowchart](Flowchart.jpg)
+
+
 ## 版本更新資訊
 ---
 * 2019/09/20 刪除download.py
