@@ -9,7 +9,7 @@
 
 
 ## Flowchart
-![Flowchart](Flowchart.jpg)
+![Flowchart](Flowchart.png)
 
 
 
